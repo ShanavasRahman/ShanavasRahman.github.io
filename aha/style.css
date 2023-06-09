@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.header img{
+    margin: 14px 10px 16px 32px;
+    float: left;
+}
+.header .sub-header{
+    width: 70%;
+    float: left;
+    height: auto;
+    margin-left: 81px;
+}
+.header .sub-header .sub-header1{
+    width: 70%;
+    height: auto;
+    float: left;
+}
+.header .sub-header .sub-header1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 25px;
+    margin: 0px 20px;
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: #f73449;
+    
+    
+}
+.header .sub-header .sub-header1 ul li:hover{
+    color:#f99d25;
+    border-bottom: 5px solid #f99d25;
+}
+.header .nav-user{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 155px;
+    margin-top: 25px;
+}
+
+
+
+.sub-body{
+    float: left;
+    width: 100%;
+    height: 759px;
+    background-image: url("images/bg\ image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.sub-body .inner-text{
+    float: left;
+    position: relative;
+    top: 160px;
+    left: 100px;
+}
+.sub-body .inner-text h3{
+    font-size: 50px;
+    color: white;
+}
+.sub-body .inner-text button{
+    background-color: transparent;
+    border: 2px solid black;
+    outline: 1px solid white;
+    padding: 15px 25px;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+.sub-body .inner-text button:hover{
+    background-color: rgb(76, 74, 74);
+}
+
+.sub-body1{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-left: 100px;
+    
+
+}
+.sub-body1 h1{
+    width: 100%;
+    padding: 60px;
+    padding-left: 420px;
+    
+}
+
+.sub-body1 .sub-products{
+    float: left;
+    background-color: #f0f0ee;
+    width: 95%;
+    height: 600px;
+    padding: 40px;
+}
+.sub-body1 .sub-products img{
+    float: left;
+    width: 310px;
+    height: 350px;
+    padding-left: 20px;
+}
+.sub-body1 .sub-products h4{
+    float: left;
+    padding: 20px;
+    padding-left: 80px;
+    font-weight: bolder;
+}
+.sub-body1 .sub-products .btn1{
+    float: left;
+    padding:20px 40px;
+    margin: 0px 90px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #f73449;
+    color: #f73449;
+}
+.sub-body1 .sub-products .btn2{
+    float: left;
+    padding:20px 40px;
+    margin: 0px 80px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #f73449;
+    color: #f73449;
+}
+.sub-body1 .sub-products .btn3{
+    float: left;
+    padding:20px 40px;
+    margin: 0px 70px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #f73449;
+    color: #f73449;
+}
+.sub-body1 .sub-products .btn4{
+    float: left;
+    padding:20px 40px;
+    margin: 0px 80px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #f73449;
+    color: #f73449;
+}
+.sub-body1 .sub-products button:hover{
+    color: white;
+    background-color: #f73449;
+}
+.sub-body2{
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+}
+.sub-body2 img{
+    width: 100%;
+}
+.sub-body3{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-left: 100px;
+}
+.sub-body3 h1{
+    width: 100%;
+    padding: 60px;
+    padding-left: 425px;
+    font-size: 40px;
+    
+}
+.sub-body3 .sub-products1{
+    float: left;
+    background-color: #f0f0ee;
+    width: 95%;
+    height: 600px;
+    padding: 40px;
+}
+.sub-body3 .sub-products1 img{
+    float: left;
+    width: 310px;
+    padding:30px;
+    padding-top: 40px;
+}
+.sub-body3 .sub-products1 .h51{
+    float: left;
+    padding-left: 80px;
+    color: rgb(165,102,17);;
+}
+.sub-body3 .sub-products1 .h52{
+    float: left;
+    padding-left: 140px;
+    color:rgb(135,15,84);
+
+}
+.sub-body3 .sub-products1 .h53{
+    float: left;
+    padding-left: 115px;
+    color: rgb(88,116,157);;
+
+}
+.sub-body3 .sub-products1 .h54{
+    float: left;
+    padding-left: 140px;
+    color: rgb(165,102,17);;
+
+}
+.sub-body3 .sub-products1 .h3-1{
+    float: left;
+    padding: 30px;
+    padding-left: 80px;
+}
+.sub-body3 .sub-products1 .h3-2{
+    float: left;
+    padding: 30px;
+    padding-left: 117px;
+}
+.sub-body3 .sub-products1 .h3-3{
+    float: left;
+    padding: 30px;
+    padding-left: 100px;
+}
+.sub-body3 .sub-products1 .h3-4{
+    float: left;
+    padding: 30px;
+    padding-left: 92px;
+}
+.sub-body3 .sub-products1 .btn1{
+    float: left;
+    padding:15px 40px;
+    margin: 0px 90px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #f73449;
+    color: #f73449;
+}
+.sub-body3 .sub-products1 .btn2{
+    float: left;
+    padding:15px 40px;
+    margin: 0px 60px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #f73449;
+    color: #f73449;
+}
+.sub-body3 .sub-products1 .btn3{
+    float: left;
+    padding:15px 40px;
+    margin: 0px 85px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #f73449;
+    color: #f73449;
+}
+.sub-body3 .sub-products1 .btn4{
+    float: left;
+    padding:15px 40px;
+    margin: 0px 80px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #f73449;
+    color: #f73449;
+}
+.sub-body3 .sub-products1 button:hover{
+    color: white;
+    background-color: #f73449;
+}
+.sub-body4{
+    width: 100%;
+    height: 427px;
+    float: left;
+    margin-top: 75px;
+    background-image: url(images/product-locator.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sub-body4 h3{
+    font-size: 40px;
+    padding-left: 120px;
+    padding-top: 130px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.sub-body4 button{
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1.5px solid black;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.sub-body4 button:hover{
+    background-color: #2f353a;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 0px 200px 100px 0px;
+    background-color: #f73449;
+}
+footer .footer-logo{
+    width: 15%;
+    height: auto;
+    float: left;
+}
+footer .footer-logo img{
+    padding-left: 130px;
+    padding-top: 60px;
+}
+footer .footer-flavors{
+    float: left;
+    width: 25%;
+    height: auto;
+    padding-top: 60px;
+}
+footer .footer-flavors h4{
+    padding-left: 80px;
+    color: white;
+}
+footer .footer-flavors .flavors-content{
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+}
+footer .footer-flavors .flavors-content p{
+    padding-left: 80px;
+    color: white;
+    padding-top: 10px;
+    font-size: 15px; 
+}
+footer .footer-shop{
+    float: left;
+    width: 25%;
+    height: auto;
+    padding-top: 60px;
+}
+footer .footer-shop h4{
+    padding-left: 80px;
+    color: white;
+}
+footer .footer-shop p{
+    padding-left: 80px;
+    color: white;
+    padding-top: 20px;
+    font-size: 15px; 
+}
+footer .footer-form{
+    float: left;
+    width: 35%;
+    height: auto;
+    padding-top: 60px;
+}
+footer .footer-form p{
+    padding-left: 100px;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+footer .footer-form .p1{
+    padding-left: 101px;
+    color: white;
+    font-size: 10px;
+    padding-top: 8px;
+    float: left;
+}
+footer .footer-form form .footer-email{
+    padding-left: 101px;
+    color: white;
+    font-size: 10px;
+    padding-top: 8px;
+    margin-bottom: 5px;
+    float: left;
+}
+footer .footer-form form .input1{
+    width: 300px;
+    height: 45px;
+    margin-left: 101px;
+    border-radius: 5px;
+    border: 1px solid white;
+    float: left;
+}
+footer .footer-form form .footer-dob{
+    width: 100%;
+    padding-left: 101px;
+    color: white;
+    font-size: 10px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    
+}
+footer .footer-form form .footer-select1{
+    width: 90px;
+    height: 45px;
+    margin-left: 101px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 10px;
+    font-size: 12px;
+}
+footer .footer-form form .footer-select2{
+    width: 90px;
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 10px;
+    font-size: 12px;
+}
+footer .footer-form form .footer-select3{
+    width: 90px;
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 10px;
+    font-size: 12px;
+}
+footer .footer-form form .checkbox-div{
+    width: 100%;
+    padding-left: 101px;
+}
+footer .footer-form form .checkbox-div .footer-checkbox{
+    margin-top: 19px;
+    float: left;
+}
+footer .footer-form form .checkbox-div .check-para{
+    font-size: 10px;
+    padding: 0;
+    padding-top: 20px;
+    padding-left: 2px;
+
+}
+footer .footer-form form .term-para{
+    width: 100%;
+    padding-left: 101px;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    float: left;
+}
+footer .footer-form form button{
+    padding: 15px 35px;
+    margin-left: 101px;
+    margin-top: 30px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-weight:bold ;
+}
+footer .footer-form form button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    font-weight:bold ;
+}
+footer .icons{
+    width: 100%;
+    height: auto;
+    float: left;
+   
+}
+footer  .icons .icon-imgs{
+    float: left;
+    width: 50%;
+    margin-left: 30%;
+    padding-left: 18%;
+}
+footer  .icons .icon-imgs img{
+    float: left;
+    width:35px;
+    height:35px;
+    padding: 2px;
+}
+footer  .icons .icon-imgs img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 0.5s ease;
+}
+footer .footer-contact{
+    width: 100%;
+    float: left;  
+}
+footer .footer-contact p{
+    float: left;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+    font-size: 14px;
+}
+footer .footer-contact ul{
+    padding-left: 90px;
+    padding-top: 100px;
+}
+footer .footer-contact ul li{
+    display: inline-block;
+    padding: 5px 5px;
+    border-right: 1px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .footer-contact ul li:hover{
+    cursor: pointer;
+}
+
+
+
+
+
